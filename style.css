@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+}
+
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+.font {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header  */
+header {
+    height: 160px;
+}
+
+.webtitle {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 87px;
+    left: 120px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    position: relative;
+    top: 95px;
+    right: 120px;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 34px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* section 1  */
+
+#btn1 {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    background-color:
+        #E02C6D;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 41px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.title1,
+.camera {
+    width: 50%;
+}
+
+.title1 {
+    margin-top: 150px;
+}
+
+#camera1 {
+    width: 75%;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.start {
+    margin-left: 120px;
+}
+
+.para1 {
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: small;
+    padding-right: 40px;
+}
+
+.journey {
+    font-size: 30px;
+}
+
+/* section 2  */
+.sec2 {
+    margin-top: 90px;
+}
+
+.companies {
+    justify-content: space-evenly;
+    margin: 0 165px;
+}
+
+.company img {
+    width: 70%;
+}
