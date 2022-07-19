@@ -5,9 +5,12 @@ body {
 /* font  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
+
 .font {
     font-family: 'Poppins', sans-serif;
 }
+
+
 
 /* header  */
 header {
@@ -17,7 +20,7 @@ header {
 .webtitle {
     font-family: 'Poppins', sans-serif;
     position: relative;
-    top: 87px;
+    top: 60px;
     left: 120px;
 }
 
@@ -28,7 +31,7 @@ header {
 
 nav {
     position: relative;
-    top: 95px;
+    top: 60px;
     right: 120px;
 }
 
@@ -53,7 +56,7 @@ nav ul li {
     color: white;
     padding: 10px 24px;
     border-radius: 41px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 24px;
 }
@@ -65,6 +68,11 @@ nav ul li {
 
 .title1 {
     margin-top: 150px;
+}
+
+.camera {
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
 }
 
 #camera1 {
@@ -100,4 +108,175 @@ nav ul li {
 
 .company img {
     width: 70%;
+}
+
+/* sec3  */
+.pop {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    gap: 30px;
+    padding: 0 195px;
+}
+
+.product {
+    box-shadow: 1px 1px 10px grey;
+    padding: 17px 15px;
+    border-radius: 5px;
+}
+
+.products .product .pro-image img {
+    width: 100%;
+    position: center;
+}
+
+.fa-solid {
+    font-size: 12px;
+    color: #FB8200;
+}
+
+.rob {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+/* sec4  */
+.sec4 {
+    margin-top: 100px;
+}
+
+.gear,
+.feature {
+    width: 50%;
+}
+
+.btn2 {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    background-color:
+        #E02C6D;
+    color: white;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.lastp {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(22, 21, 21);
+}
+
+.feature {
+    padding: 20px 60px;
+}
+
+.sec4 .flex .gear img {
+    display: block;
+    margin: 0 auto;
+    width: 404px;
+    height: 270px;
+}
+
+/* footer  */
+.cent {
+    text-align: center;
+    color: white;
+}
+
+.foot {
+    margin-top: 100px;
+    background-color: #0A0826;
+    height: 250px;
+}
+
+.gap {
+    padding-top: 40px;
+}
+
+/* media query  */
+@media only screen and (max-width: 600px) {
+    nav ul li {
+        display: none;
+    }
+
+    .start {
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+
+    .title1,
+    .camera {
+        width: 50%;
+        margin: 0px auto;
+    }
+
+    .journey {
+        text-align: center;
+    }
+
+    .para1 {
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    #btn1 {
+        margin-left: 20px;
+    }
+
+    #camera1 {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .camera {
+        background-position: center;
+        background-size: cover;
+    }
+
+    .companies {
+        justify-content: space-evenly;
+        margin: 0px 30px;
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+
+    .products {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 25px;
+    }
+
+    .product {
+        box-shadow: 0px 0px 5px grey;
+        padding: 17px 15px;
+        border-radius: 20px;
+    }
+
+    .pop {
+        margin-bottom: 30px;
+    }
+
+    .col {
+        flex-direction: column;
+    }
+
+    .f1 {
+        text-align: center;
+    }
+
+    .sec4 .flex .gear img {
+        margin: 0px 20px;
+        width: 180%;
+    }
+
+    .feature {
+        padding: 20px 98px;
+    }
 }
