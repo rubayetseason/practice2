@@ -279,4 +279,8 @@ nav ul li {
     .feature {
         padding: 20px 98px;
     }
+
+    .lastp {
+        text-align: center;
+    }
 }
