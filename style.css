@@ -283,4 +283,10 @@ nav ul li {
     .lastp {
         text-align: center;
     }
+
+    .btn2 {
+        padding-left: 60px;
+        display: block;
+        margin: 0 auto;
+    }
 }
